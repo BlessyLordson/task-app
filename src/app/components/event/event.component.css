@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.abc{
+    text-align: center;
+}
+
+.bold{
+    font-style: bold;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.italic{
+    font-style: italic;
+    color:aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.xyz{
+    text-align: center;
+}
+  
