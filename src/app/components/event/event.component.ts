@@ -1,6 +1,5 @@
 
 import { Component, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-event',
@@ -11,7 +10,7 @@ export class EventComponent{
 
   constructor() { }
  
-  public twoWayBinding :string = "Angular";
+  public twoWayBinding :string = "";
 
 }
 

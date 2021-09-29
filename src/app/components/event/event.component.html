@@ -5,6 +5,7 @@
 <div class="xyz">
 <button type="button" (click)="changeColor()">change</button>
 </div> -->
+<h3 style="text-align: center;">Pipes</h3>
 <div class="xyz">
-<input [(ngModel)] = "twoWayBinding" type = "text"></div>
-<h1>{{twoWayBinding}}</h1>
+<input [(ngModel)] = "twoWayBinding" type = "number">&nbsp; Enter Mobile Number</div>
+<h1>{{twoWayBinding | mobilenumber : 'GBR' }}</h1>
